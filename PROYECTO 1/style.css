@@ -1,0 +1,224 @@
+h1 {
+  color: rgb(27, 1, 1); 
+  text-decoration: underline; 
+  font-size: xx-large;
+ }
+ 
+ p {
+   font-size: 18px;
+   width: 400px;
+   text-indent: 50px;
+   text-align: justify;
+   font-family: 'Franklin Gothic Medium';
+   padding: 10px;
+   
+  }
+  .green{
+    color:green
+   }
+
+
+h2{
+  color:#242124;
+  
+  }
+  p{
+    font-size: 16px;
+    width: 350px;
+    text-indent: 50px;
+    text-align: justify;
+    font-family: 'Gill Sans';
+    padding: 10px;
+  }
+
+h3{
+  color:#090909;
+  font-size: x-large;
+  }
+  p{
+    
+    width: 30px;
+    text-indent: 50px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+  }
+h4{
+  font-size: 8px;
+  width: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+}
+.encabezado{
+  border:1px solid black;
+  display:flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.seccion1{
+  background-color: rgb(221, 23, 23);
+  background-image: url("https://giffiles.alphacoders.com/419/4192.gif");
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.seccion2{
+  background-color:#d34fd3;
+  border:1px solid black;
+  display: flex;
+  width: 50%;
+  padding:65px;
+  justify-content:space-around;
+  align-items: center;
+}
+.pcha{
+  background-image: url("https://www.gifsanimados.org/data/media/90/fuego-imagen-animada-0385.gif");
+}
+.piedepágina{
+  border:1px solid black;
+  display:flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: antiquewhite;
+  
+}
+.necesitamostuopinion{
+  border: 1px solid black;
+  display:flex;
+  justify-content:center;
+  background-color:antiquewhite;
+  align-items: center;
+  flex-direction:column;
+  padding: 20px;
+}
+.main1{
+  background-color: white;
+  border: 1px solid black;
+  align-items: center;
+  padding: 10px 20px;
+}
+.maintexto{
+  background-color: bisque;
+  border-radius: 10px;
+  border:1px solid black;
+  text-align: justify;
+  
+  display: flex;
+  flex-direction: column;
+  padding:100px 200px;
+  align-items: start;
+}
+.main2{
+  background-color: white;
+  border: 1px solid black;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding: 50px 20px;
+}
+.ch1{
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: red;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.ch2{
+  border: 1px solid black;  
+  border-radius: 10%;
+  background-color: red;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.seccionchiste1{
+  background-color: white;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding: 10px 20px;
+}
+.textochiste1{
+  background-color: white;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align: right;
+  padding: 10px 20px;
+}
+.botonessalida{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  text-align: right;
+  padding: 10px 20px;
+}
+.seccionchiste2{
+  background-color: white;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding: 20px 40px;
+}
+.textochiste2{
+  background-color: white;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align: right;
+  padding: 10px 20px;
+}
+.tituloopinion{
+  padding: 30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fondorespuesta0{
+  border: 1px solid black;
+  padding: 30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondorespuesta1{
+  color:rgb(0, 0, 0);
+  background-color: bisque;
+  padding:100px 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+@media (min-width: 300px) and (max-width: 999px) {
+  .responsive-div {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1000px) {
+  .main2 {
+    justify-content:space-around;
+  }
+}
